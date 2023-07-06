@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="header">
+                <h1 id="header-heading">Metric/Imperial Unit Conversion</h1>
+                <div>
+                    <input type="text" id="input-el" inputmode="numeric" pattern="[0-9]+">
+                </div>
+                <div>
+                    <button id="generate-btn">Convert</button>
+                </div>
+        </div>
+        <div class="container">
+            <ul>
+                <li>
+                    <div class="group-one">
+                        <h1 id="header-container">Length (Meter/Feet)</h1>
+                        <div id="par-el-one"></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="group-two">
+                        <h1 id="header-container">Volume (Liters/Gallons)</h1>
+                        <div id="par-el-two"></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="group-three">
+                        <h1 id="header-container">Mass (Kilograms/Pounds)</h1>
+                        <div id="par-el-three"></div>
+                    </div>
+                </li>                  
+            </ul>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
